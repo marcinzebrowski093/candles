@@ -14,6 +14,8 @@
   background-size: cover;
   background-position: center;
   padding: 20px 10%;
+  -webkit-transition: background-image 0.3s;
+  transition: background-image 0.3s;
 }
 
 nav {
@@ -82,7 +84,8 @@ nav .btn {
 }
 
 .content .colour-select {
-  margin-top: 50px;
+  margin-top: 40px;
+  color: #303030;
 }
 
 .content a {
@@ -95,5 +98,16 @@ nav .btn {
 
 .content #wisnia {
   background-color: #790604;
+}
+
+.more {
+  margin-top: 50px;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
