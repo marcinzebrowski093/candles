@@ -136,9 +136,12 @@ nav {
   }
 }
 
+.carousel-container {
+}
+
 @media all and (max-width: 576px) {
   .content {
-    margin-top: 10vh;
+    margin-top: 5vh;
     p {
       font-size: 14px;
     }
@@ -175,6 +178,10 @@ nav {
   }
 
   nav .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  nav .btn:hover {
     font-size: 14px;
     padding: 10px 20px;
   }

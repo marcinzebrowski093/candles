@@ -13,3 +13,10 @@ cytryna.onclick = function () {
     cytryna.classList.add('active');
     dynia.classList.remove('active');
 }
+
+$(document).ready(function () {
+    $('.your-class').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+    });
+});
