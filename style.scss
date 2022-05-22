@@ -34,7 +34,7 @@ nav {
   .btn {
     color: white;
     background-color: #303030;
-    padding: 15px 50px;
+    padding: 15px 30px;
     border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
@@ -42,7 +42,7 @@ nav {
 }
 
 .content {
-  margin-top: 22vh;
+  margin-top: 15vh;
   h2 {
     color: #7f1734;
     font-size: 34px;
@@ -69,7 +69,7 @@ nav {
   .btn {
     color: white;
     background-color: #fdf5e6;
-    padding: 15px 50px;
+    padding: 15px 30px;
     border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
@@ -85,12 +85,36 @@ nav {
     cursor: pointer;
   }
 
-  #czekolada {
-    background-color: #5c311c;
+  .btn {
+    border: 1px solid #303030;
+    background: transparent;
+    color: #303030;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
   }
 
-  #wisnia {
-    background-color: #790604;
+  #dynia:hover {
+    background-color: #ff7518;
+    color: white;
+    border: 1px solid #ff7518;
+  }
+
+  #dynia.active {
+    background-color: #ff7518;
+    color: white;
+    border: 1px solid #ff7518;
+  }
+
+  #cytryna:hover {
+    background-color: #fde910;
+    color: white;
+    border: 1px solid #fde910;
+  }
+
+  #cytryna.active {
+    background-color: #fde910;
+    color: white;
+    border: 1px solid #fde910;
   }
 }
 

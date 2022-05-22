@@ -40,14 +40,14 @@ nav .logo {
 nav .btn {
   color: white;
   background-color: #303030;
-  padding: 15px 50px;
+  padding: 15px 30px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 18px;
 }
 
 .content {
-  margin-top: 22vh;
+  margin-top: 15vh;
 }
 
 .content h2 {
@@ -76,7 +76,7 @@ nav .btn {
 .content .btn {
   color: white;
   background-color: #fdf5e6;
-  padding: 15px 50px;
+  padding: 15px 30px;
   border-radius: 30px;
   text-decoration: none;
   font-size: 18px;
@@ -92,12 +92,38 @@ nav .btn {
   cursor: pointer;
 }
 
-.content #czekolada {
-  background-color: #5c311c;
+.content .btn {
+  border: 1px solid #303030;
+  background: transparent;
+  color: #303030;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
 }
 
-.content #wisnia {
-  background-color: #790604;
+.content #dynia:hover {
+  background-color: #ff7518;
+  color: white;
+  border: 1px solid #ff7518;
+}
+
+.content #dynia.active {
+  background-color: #ff7518;
+  color: white;
+  border: 1px solid #ff7518;
+}
+
+.content #cytryna:hover {
+  background-color: #fde910;
+  color: white;
+  border: 1px solid #fde910;
+}
+
+.content #cytryna.active {
+  background-color: #fde910;
+  color: white;
+  border: 1px solid #fde910;
 }
 
 .more {
