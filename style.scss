@@ -136,9 +136,82 @@ nav {
   }
 }
 
-.slick-slider div {
+.carousel-container {
+  text-align: center;
+  padding: 20px 10%;
+  h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+.slick-arrow {
+  background: transparent;
+  border-style: solid;
+  border: 1px solid #303030;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 50%;
+}
+
+.slick-arrow:hover {
+  background: #303030;
   color: white;
-  background: black;
+}
+
+.slick-slider {
+  display: flex !important;
+}
+
+.slick-slider .produkt {
+  background: white;
+  text-align: center;
+}
+
+.slick-slide {
+  margin: 5px;
+}
+.kontakt {
+  padding: 20px 10%;
+  h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  p {
+    max-width: 500px;
+  }
+
+  .ikony {
+    margin: 50px 0;
+  }
+
+  .ikony div {
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+  }
+
+  .ikony p {
+    margin-left: 50px;
+  }
+
+  i {
+    color: #7f1734;
+  }
+}
+
+.stopka {
+  padding: 150px 10%;
+  background: #7f1734;
+  color: white;
+  min-height: 500px;
+  .logo {
+    font-size: 36px;
+    font-family: "Great Vibes", cursive;
+  }
 }
 
 @media all and (max-width: 576px) {
