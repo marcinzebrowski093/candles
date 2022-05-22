@@ -136,4 +136,40 @@ nav .btn {
   font-size: 18px;
   font-weight: 600;
 }
+
+@media all and (max-width: 576px) {
+  .content {
+    margin-top: 10vh;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .content h1 {
+    font-size: 32px;
+  }
+  .content h2 {
+    font-size: 18px;
+  }
+  .content h3 {
+    margin-top: 15px;
+  }
+  .content .colour-select {
+    margin-top: 15px;
+  }
+  .content .more {
+    margin-top: 30px;
+  }
+  .content .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 5px;
+  }
+  nav .logo {
+    font-size: 32px;
+  }
+  nav .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
