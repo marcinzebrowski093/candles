@@ -147,6 +147,11 @@ nav .btn:hover {
   font-weight: 600;
 }
 
+.slick-slider div {
+  color: white;
+  background: black;
+}
+
 @media all and (max-width: 576px) {
   .content {
     margin-top: 5vh;

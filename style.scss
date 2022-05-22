@@ -136,7 +136,9 @@ nav {
   }
 }
 
-.carousel-container {
+.slick-slider div {
+  color: white;
+  background: black;
 }
 
 @media all and (max-width: 576px) {
