@@ -207,8 +207,14 @@ nav {
 }
 
 @media all and (max-width: 576px) {
+  .container {
+    background: url(mobile_pumpkin.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+
   .content {
-    margin-top: 5vh;
+    margin-top: 2vh;
     p {
       font-size: 14px;
     }
