@@ -211,10 +211,11 @@ nav {
     background: url(mobile_pumpkin.png);
     background-size: cover;
     background-position: bottom;
+    min-height: 120vh;
   }
 
   .content {
-    margin-top: 2vh;
+    margin-top: 5vh;
     p {
       font-size: 14px;
     }
