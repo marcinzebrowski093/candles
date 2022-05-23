@@ -258,6 +258,12 @@ nav {
     font-size: 14px;
     padding: 10px 20px;
   }
+
+  .background {
+    background: url(background_mobile.png);
+    background-position: bottom;
+    background-size: cover;
+  }
 }
 
 @media all and (min-width: 1024px) {
