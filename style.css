@@ -10,7 +10,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: url(babka1.png);
+  background-image: url(Cupcake_pumpkin.png);
   background-size: cover;
   background-position: center;
   padding: 20px 10%;
@@ -112,22 +112,10 @@ nav .btn:hover {
   cursor: pointer;
 }
 
-.content #dynia:hover {
-  background-color: #ff7518;
-  color: white;
-  border: 1px solid #ff7518;
-}
-
 .content #dynia.active {
   background-color: #ff7518;
   color: white;
   border: 1px solid #ff7518;
-}
-
-.content #cytryna:hover {
-  background-color: #fde910;
-  color: white;
-  border: 1px solid #fde910;
 }
 
 .content #cytryna.active {
@@ -145,6 +133,10 @@ nav .btn:hover {
   color: black;
   font-size: 18px;
   font-weight: 600;
+}
+
+.background {
+  background-image: url(background.png);
 }
 
 .carousel-container {
@@ -272,6 +264,19 @@ nav .btn:hover {
   nav .btn:hover {
     font-size: 14px;
     padding: 10px 20px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  #dynia:hover {
+    background-color: #ff7518;
+    color: white;
+    border: 1px solid #ff7518;
+  }
+  #cytryna:hover {
+    background-color: #fde910;
+    color: white;
+    border: 1px solid #fde910;
   }
 }
 /*# sourceMappingURL=style.css.map */
