@@ -212,7 +212,7 @@ nav {
     background: url(mobile_pumpkin.png);
     background-size: cover;
     background-position: bottom;
-    min-height: 100vh;
+    min-height: 110vh;
   }
 
   .content {
@@ -270,7 +270,7 @@ nav {
 
 @media all and (min-height: 700px) and (max-height: 900px) {
   .container {
-    min-height: 100vh;
+    min-height: unset;
   }
 
   .content h3 {
