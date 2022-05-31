@@ -248,7 +248,7 @@ nav .btn:hover {
     font-size: 18px;
   }
   .content h3 {
-    margin-top: 35vh;
+    margin-top: 40vh;
   }
   .content .colour-select {
     margin-top: 15px;
@@ -281,10 +281,10 @@ nav .btn:hover {
 
 @media all and (min-height: 700px) and (max-height: 900px) {
   .container {
-    min-height: unset;
+    min-height: 100vh;
   }
   .content h3 {
-    margin-top: 50vh;
+    margin-top: 60vh;
   }
 }
 
