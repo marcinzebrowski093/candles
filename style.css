@@ -233,7 +233,7 @@ nav .btn:hover {
     background: url(mobile_pumpkin.png);
     background-size: cover;
     background-position: bottom;
-    min-height: 120vh;
+    min-height: 100vh;
   }
   .content {
     margin-top: 5vh;
@@ -248,7 +248,7 @@ nav .btn:hover {
     font-size: 18px;
   }
   .content h3 {
-    margin-top: 15px;
+    margin-top: 250px;
   }
   .content .colour-select {
     margin-top: 15px;
