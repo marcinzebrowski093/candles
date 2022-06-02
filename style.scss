@@ -387,7 +387,7 @@ nav {
   }
 }
 
-@media all and (min-height: 700px) and (max-height: 900px) and (orientation: portrait) {
+@media all and (min-height: 700px) and (max-height: 900px) {
   .container {
     min-height: 90vh;
     height: 90vh;
@@ -403,6 +403,18 @@ nav {
 }
 
 @media all and (min-width: 1024px) {
+  .container {
+    height: 100vh;
+  }
+
+  .content h3 {
+    margin-top: 30px;
+  }
+
+  .carousel-container {
+    padding: 20px 10%;
+  }
+
   #dynia:hover {
     background-color: #ff7518;
     color: white;
