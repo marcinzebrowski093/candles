@@ -16,7 +16,7 @@
   <div class="container" id="candle">
     <nav>
       <p class="logo">Gabi Cupcakes</p>
-      <a href="#" class="btn">Kontakt</a>
+      <a href="#kontakt" class="btn">Kontakt</a>
     </nav>
     <div class="content">
       <h2>POZNAJ NASZE</h2>
@@ -31,31 +31,55 @@
         <a class="btn" id="cytryna">Cytryna</a>
       </div>
       <div class="more">
-        <a href="#">Więcej produktów
+        <a href="#karuzela">Więcej produktów
           <i class="fa fa-arrow-right"></i> </a>
       </div>
     </div>
   </div>
   </div>
-  <div class="background">
+  <div class="background" id="karuzela">
     <div class="carousel-container">
       <h1>WYJĄTKOWE SMAKI</h1>
       <div class="slick-slider">
-        <div class="produkt">babka</div>
-        <div class="produkt">babka2</div>
-        <div class="produkt">babka3</div>
-        <div class="produkt">babka4</div>
-        <div class="produkt">babka5</div>
-        <div class="produkt">babka6</div>
+        <div class="produkt">
+          <img src="pumpkin.png">
+          <h3>Babka dyniowa</h3>
+          <p>25,99zł</p>
+        </div>
+        <div class="produkt">
+          <img src="lemon.png">
+          <h3>Babka cytrynowa</h3>
+          <p>23,99zł</p>
+        </div>
+        <div class="produkt">
+          <img src="pumpkin.png">
+          <h3>Babka dyniowa</h3>
+          <p>25,99zł</p>
+        </div>
+        <div class="produkt">
+          <img src="lemon.png">
+          <h3>Babka cytrynowa</h3>
+          <p>23,99zł</p>
+        </div>
+        <div class="produkt">
+          <img src="pumpkin.png">
+          <h3>Babka dyniowa</h3>
+          <p>25,99zł</p>
+        </div>
+        <div class="produkt">
+          <img src="lemon.png">
+          <h3>Babka cytrynowa</h3>
+          <p>23,99zł</p>
+        </div>
       </div>
     </div>
-    <div class="kontakt">
+    <div class="kontakt" id="kontakt">
       <h1>Skontaktuj się z nami</h1>
       <p>Jesteśmy regionalną firmą zajmujacą się cukiernictwem. Jeśli jesteś z Białegostoku, Warszawy, Poznania lub
         okolic
         to nasze zdrowe i pyszne babeczki są w zasięgu Twojej ręki! Zamówienia przyjmujemy mailowo i dostarczamy w ciągu
         2
-        dni roboczych </p>
+        dni roboczych. </p>
       <div class="ikony">
         <div class="telefon">
           <i class="fa fa-phone fa-3x"></i>
@@ -72,12 +96,22 @@
       </div>
       <div class="forma">
         <h1>NAPISZ DO NAS</h1>
-
+        <input type="text" class="field" placeholder="Imię">
+        <input type="email" class="field" placeholder="E-mail">
+        <textarea class="field" placeholder="Twoja wiadomość"></textarea>
+        <button type="button">Wyślij</button>
       </div>
     </div>
   </div>
   <div class="stopka">
     <p class="logo">Gabi Cupcakes</p>
+    <p>Tworzone z naturalnych składników przyjaznych dla środowiska.
+      Barwne, pachnące a przede wszystkim pyszne!
+      Pozwól sobie na chwilę przyjemności.
+      Wybieraj spośród wielu rozmaitych smaków.</p>
+    <i class="fa fa-instagram fa-2x"></i>
+    <i class="fa fa-facebook-square fa-2x"></i>
+    <i class="fa fa-linkedin fa-2x"></i>
   </div>
 
   <script src="script.js"></script>
@@ -95,6 +129,13 @@
         pauseOnFocus: false,
         prevArrow: "<button>< Poprzedni</button>",
         nextArrow: "<button>Następny ></button>",
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+
+          }
+        }, ]
       });
     });
   </script>
