@@ -298,7 +298,6 @@ nav .btn:hover {
   padding: 150px 10%;
   background: #7f1734;
   color: white;
-  min-height: 400px;
 }
 
 .stopka .logo {
@@ -410,7 +409,7 @@ nav .btn:hover {
     min-height: 100vh;
   }
   .content h3 {
-    margin-top: 60vh;
+    margin-top: 48vh;
   }
 }
 
